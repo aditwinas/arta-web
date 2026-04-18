@@ -4,7 +4,7 @@ export default function Navbar() {
       <nav className="flex justify-between items-center px-12 py-6 max-w-screen-2xl mx-auto">
         
         <div className="flex items-center gap-3 shrink-0">
-          <img src="/logo.png" alt="ARTA Partners" className="h-6 w-auto object-contain shrink-0" />
+          <img src="/logo.png" alt="ARTA Partners" className="h-4 sm:h-5 w-auto object-contain shrink-0" />
         </div>
 
         <div className="hidden lg:flex items-center space-x-8 font-medium tracking-tight">

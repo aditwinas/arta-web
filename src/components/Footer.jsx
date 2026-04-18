@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 max-w-screen-2xl mx-auto">
         <div>
           <div className="mb-6 shrink-0">
-            <img src="/logo.png" alt="ARTA Partners" className="h-7 w-auto object-contain shrink-0" />
+            <img src="/logo.png" alt="ARTA Partners" className="h-5 w-auto object-contain shrink-0" />
           </div>
           <p className="text-slate-500 text-sm leading-relaxed mb-8">
             Ekosistem yang dirancang untuk mempercepat brand dan memberikan peluang investasi imbal hasil tinggi melalui pendekatan manajemen 360.
