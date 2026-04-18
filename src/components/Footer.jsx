@@ -3,7 +3,9 @@ export default function Footer() {
     <footer className="w-full py-20 px-12 bg-slate-50 dark:bg-slate-900 border-t border-slate-200/50">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 max-w-screen-2xl mx-auto">
         <div>
-          <div className="text-xl font-bold text-blue-950 dark:text-white mb-6 uppercase">ARTA Partners</div>
+          <div className="mb-6 shrink-0">
+            <img src="/logo.png" alt="ARTA Partners" className="h-7 w-auto object-contain shrink-0" />
+          </div>
           <p className="text-slate-500 text-sm leading-relaxed mb-8">
             Ekosistem yang dirancang untuk mempercepat brand dan memberikan peluang investasi imbal hasil tinggi melalui pendekatan manajemen 360.
           </p>

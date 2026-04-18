@@ -2,7 +2,11 @@ export default function Navbar() {
   return (
     <header className="fixed top-0 w-full z-50 glass-nav shadow-[0_40px_60px_-15px_rgba(8,23,45,0.06)]">
       <nav className="flex justify-between items-center px-12 py-6 max-w-screen-2xl mx-auto">
-        <div className="text-2xl font-black tracking-tighter text-blue-950 dark:text-white uppercase">ARTA Partners</div>
+        
+        <div className="flex items-center gap-3 shrink-0">
+          <img src="/logo.png" alt="ARTA Partners" className="h-6 w-auto object-contain shrink-0" />
+        </div>
+
         <div className="hidden lg:flex items-center space-x-8 font-medium tracking-tight">
           <a className="text-blue-600 dark:text-blue-400 font-bold border-b-2 border-blue-600 pb-1" href="#">360 Management</a>
           <a className="text-slate-600 dark:text-slate-400 hover:text-blue-900 transition-colors" href="#">Untuk Investor</a>
