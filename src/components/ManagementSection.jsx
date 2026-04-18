@@ -23,26 +23,26 @@ export default function ManagementSection() {
               </div>
             </div>
           </div>
-          <div className="lg:col-span-7 grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div className="p-8 bg-surface-container-lowest rounded-xl hover:shadow-lg transition-all border border-transparent hover:border-secondary/10">
-              <span className="material-symbols-outlined text-secondary text-4xl mb-6">account_balance</span>
-              <h3 className="text-xl font-bold text-primary mb-3">Keuangan</h3>
-              <p className="text-on-surface-variant">Alokasi modal yang bijak, manajemen risiko, dan sistem pelaporan yang transparan.</p>
+          <div className="lg:col-span-7 grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="p-8 sm:p-10 bg-surface-container-lowest rounded-2xl hover:shadow-lg transition-all border border-transparent hover:border-secondary/10">
+              <span className="material-symbols-outlined text-secondary text-5xl mb-6">account_balance</span>
+              <h3 className="text-2xl font-bold text-primary mb-3">Keuangan</h3>
+              <p className="text-on-surface-variant leading-relaxed">Alokasi modal yang bijak, manajemen risiko, dan sistem pelaporan yang transparan.</p>
             </div>
-            <div className="p-8 bg-surface-container-lowest rounded-xl hover:shadow-lg transition-all border border-transparent hover:border-secondary/10">
-              <span className="material-symbols-outlined text-secondary text-4xl mb-6">settings_suggest</span>
-              <h3 className="text-xl font-bold text-primary mb-3">Operasional</h3>
-              <p className="text-on-surface-variant">Merampingkan alur kerja dan rantai pasokan untuk mencapai efisiensi operasional puncak.</p>
+            <div className="p-8 sm:p-10 bg-surface-container-lowest rounded-2xl hover:shadow-lg transition-all border border-transparent hover:border-secondary/10">
+              <span className="material-symbols-outlined text-secondary text-5xl mb-6">settings_suggest</span>
+              <h3 className="text-2xl font-bold text-primary mb-3">Operasional</h3>
+              <p className="text-on-surface-variant leading-relaxed">Merampingkan alur kerja dan rantai pasokan untuk mencapai efisiensi operasional puncak.</p>
             </div>
-            <div className="p-8 bg-surface-container-lowest rounded-xl hover:shadow-lg transition-all border border-transparent hover:border-secondary/10">
-              <span className="material-symbols-outlined text-secondary text-4xl mb-6">rocket_launch</span>
-              <h3 className="text-xl font-bold text-primary mb-3">Pengembangan</h3>
-              <p className="text-on-surface-variant">Waralaba, pencarian lokasi, dan penskalaan infrastruktur untuk dominasi regional.</p>
+            <div className="p-8 sm:p-10 bg-surface-container-lowest rounded-2xl hover:shadow-lg transition-all border border-transparent hover:border-secondary/10">
+              <span className="material-symbols-outlined text-secondary text-5xl mb-6">rocket_launch</span>
+              <h3 className="text-2xl font-bold text-primary mb-3">Pengembangan</h3>
+              <p className="text-on-surface-variant leading-relaxed">Waralaba, pencarian lokasi, dan penskalaan infrastruktur untuk dominasi regional.</p>
             </div>
-            <div className="p-8 bg-surface-container-lowest rounded-xl hover:shadow-lg transition-all border border-transparent hover:border-secondary/10">
-              <span className="material-symbols-outlined text-secondary text-4xl mb-6">campaign</span>
-              <h3 className="text-xl font-bold text-primary mb-3">Pemasaran</h3>
-              <p className="text-on-surface-variant">Kesadaran brand omnichannel dan strategi digital yang berorientasi pada konversi.</p>
+            <div className="p-8 sm:p-10 bg-surface-container-lowest rounded-2xl hover:shadow-lg transition-all border border-transparent hover:border-secondary/10">
+              <span className="material-symbols-outlined text-secondary text-5xl mb-6">campaign</span>
+              <h3 className="text-2xl font-bold text-primary mb-3">Pemasaran</h3>
+              <p className="text-on-surface-variant leading-relaxed">Kesadaran brand omnichannel dan strategi digital yang berorientasi pada konversi.</p>
             </div>
           </div>
         </div>
